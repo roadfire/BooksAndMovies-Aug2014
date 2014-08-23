@@ -21,6 +21,7 @@
 		039EB71619A7987500AE2114 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039EB6F819A7987500AE2114 /* UIKit.framework */; };
 		039EB71E19A7987500AE2114 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 039EB71C19A7987500AE2114 /* InfoPlist.strings */; };
 		039EB72019A7987500AE2114 /* BooksAndMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 039EB71F19A7987500AE2114 /* BooksAndMoviesTests.m */; };
+		039EB72E19A7D52200AE2114 /* RFSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039EB72D19A7D52200AE2114 /* RFSDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		039EB71B19A7987500AE2114 /* BooksAndMoviesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooksAndMoviesTests-Info.plist"; sourceTree = "<group>"; };
 		039EB71D19A7987500AE2114 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		039EB71F19A7987500AE2114 /* BooksAndMoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooksAndMoviesTests.m; sourceTree = "<group>"; };
+		039EB72C19A7D52200AE2114 /* RFSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSDetailViewController.h; sourceTree = "<group>"; };
+		039EB72D19A7D52200AE2114 /* RFSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				039EB70619A7987500AE2114 /* Main.storyboard */,
 				039EB70919A7987500AE2114 /* RFSViewController.h */,
 				039EB70A19A7987500AE2114 /* RFSViewController.m */,
+				039EB72C19A7D52200AE2114 /* RFSDetailViewController.h */,
+				039EB72D19A7D52200AE2114 /* RFSDetailViewController.m */,
 				039EB70C19A7987500AE2114 /* Images.xcassets */,
 				039EB6FB19A7987500AE2114 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				039EB70519A7987500AE2114 /* RFSAppDelegate.m in Sources */,
+				039EB72E19A7D52200AE2114 /* RFSDetailViewController.m in Sources */,
 				039EB70119A7987500AE2114 /* main.m in Sources */,
 				039EB70B19A7987500AE2114 /* RFSViewController.m in Sources */,
 			);

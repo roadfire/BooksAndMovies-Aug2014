@@ -1,5 +1,5 @@
 //
-//  RFSViewController.h
+//  RFSDetailViewController.h
 //  BooksAndMovies
 //
 //  Created by Josh Brown on 8/22/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RFSViewController : UITableViewController
+@interface RFSDetailViewController : UIViewController
+
+@property NSDictionary *entry;
 
 @end
